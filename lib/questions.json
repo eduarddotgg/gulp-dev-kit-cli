@@ -1,0 +1,65 @@
+{
+  "initType" : [{
+    "type": "confirm",
+    "name": "init",
+    "message": "Init project automatically:",
+    "default": true
+  }],
+  "mainQuestions" : [{
+    "type": "input",
+    "name": "name",
+    "message": "Name:",
+    "default": "gulp-dev-kit"
+  },
+    {
+      "type": "input",
+      "name": "version",
+      "message": "Version:",
+      "default": "1.0.0"
+    },
+    {
+      "type": "input",
+      "name": "repository",
+      "message": "Repository URL:"
+    },
+    {
+      "type": "input",
+      "name": "author",
+      "message": "Author:"
+    },
+    {
+      "type": "input",
+      "name": "license",
+      "message": "License:",
+      "default": "MIT"
+    },
+    {
+      "type": "input",
+      "name": "description",
+      "message": "Description:"
+    },
+    {
+      "type": "input",
+      "name": "sourceDir",
+      "message": "Source Folder:",
+      "default": "./src"
+    },
+    {
+      "type": "input",
+      "name": "publicDir",
+      "message": "Public Folder:",
+      "default": "./public"
+    },
+    {
+      "type": "input",
+      "name": "host",
+      "message": "Host:",
+      "default": "localhost"
+    },
+    {
+      "type": "input",
+      "name": "port",
+      "message": "Server Port:",
+      "default": "3000"
+    }]
+}
